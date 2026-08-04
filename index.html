@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>陳見瑜 | AI 解決方案架構師 — 作品集</title>
+<title>DigiMate | 陳見瑜 — AI 解決方案架構師 作品集</title>
+<meta name="description" content="DigiMate — 讓中小企業不必花大錢，也能用上大公司等級的系統與服務。AI 應用、流程自動化與 CRM 導入實績。">
+
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -43,6 +45,24 @@ body { font-family:'Noto Sans TC','Inter',sans-serif; background:var(--bg-dark);
 .stat { text-align:center; }
 .stat-num { font-size:36px; font-weight:800; background:var(--gradient-1); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
 .stat-label { font-size:13px; color:var(--text-muted); margin-top:4px; }
+
+/* ===== BRAND (DigiMate) ===== */
+.brand-mark { display:block; font-family:'Inter',sans-serif; font-size:15px; font-weight:700; letter-spacing:4px; text-transform:uppercase; margin-bottom:20px; }
+.brand-mark .digi { color:var(--text-primary); }
+.brand-mark .mate { background:var(--gradient-1); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+.brand-section { background:linear-gradient(135deg, rgba(59,130,246,0.06), rgba(6,182,212,0.04)); border:1px solid var(--border); border-radius:16px; padding:48px; }
+.brand-statement { font-size:clamp(20px,2.6vw,28px); font-weight:700; line-height:1.6; margin-bottom:20px; }
+.brand-statement em { font-style:normal; background:var(--gradient-1); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+.brand-lead { font-size:16px; color:var(--text-secondary); max-width:760px; }
+.brand-values { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin-top:36px; }
+.brand-value { background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:12px; padding:24px; }
+.brand-value .icon { font-size:26px; margin-bottom:10px; }
+.brand-value h5 { font-size:16px; font-weight:600; margin-bottom:8px; }
+.brand-value p { font-size:13px; color:var(--text-muted); }
+.brand-founder { display:flex; gap:20px; align-items:flex-start; margin-top:36px; padding-top:32px; border-top:1px solid var(--border); flex-wrap:wrap; }
+.brand-founder .role { font-size:13px; letter-spacing:2px; text-transform:uppercase; color:var(--accent-cyan); margin-bottom:8px; }
+.brand-founder p { font-size:15px; color:var(--text-secondary); max-width:760px; }
+@media (max-width:768px) { .brand-section { padding:32px 24px; } }
 
 /* ===== SECTIONS ===== */
 section { padding:100px 0; }
@@ -137,6 +157,7 @@ footer { text-align:center; padding:40px 0; border-top:1px solid var(--border); 
 <!-- ===== HERO ===== -->
 <section class="hero">
 <div class="hero-content">
+  <div class="brand-mark" style="margin-bottom:16px"><span class="digi">Digi</span><span class="mate">Mate</span></div>
   <div class="hero-badge">OPEN TO WORK</div>
   <h1>陳見瑜</h1>
   <h2>AI 解決方案架構師 &#x2022; GenAI 應用開發 &#x2022; 數位轉型實戰者</h2>
@@ -147,13 +168,69 @@ footer { text-align:center; padding:40px 0; border-top:1px solid var(--border); 
     <span class="hero-tag">Genesys Cloud API</span>
     <span class="hero-tag">Tableau</span>
     <span class="hero-tag">Low-Code / No-Code</span>
-    <span class="hero-tag">iPAS AI Architect</span>
+    <span class="hero-tag">iPAS AI 應用規劃師</span>
   </div>
   <div class="stats-row">
-    <div class="stat"><div class="stat-num">15+</div><div class="stat-label">年產業經驗</div></divh
+    <div class="stat"><div class="stat-num">15+</div><div class="stat-label">年產業經驗</div></div>
     <div class="stat"><div class="stat-num">50+</div><div class="stat-label">GAS 自動化專案</div></div>
     <div class="stat"><div class="stat-num">50%</div><div class="stat-label">質檢效率提升</div></div>
     <div class="stat"><div class="stat-num">90%</div><div class="stat-label">流程自動化提速</div></div>
+  </div>
+</div>
+</section>
+
+<!-- ===== BRAND: DIGIMATE ===== -->
+<section>
+<div class="container">
+  <div class="section-label">The Brand</div>
+  <div class="section-title">關於 DigiMate</div>
+  <div class="divider"></div>
+  <div class="brand-section">
+    <div class="brand-statement">
+      讓中小企業<em>不必花大錢</em>，也能用上大公司等級的系統與服務。
+    </div>
+    <p class="brand-lead">
+      大型企業有預算導入 CRM、AI 客服、營運儀表板與流程自動化；中小企業同樣有這些需求，
+      卻常卡在動輒百萬的授權費與導入成本，最後只能繼續用 Excel、LINE 群組和人工作業硬撐。
+      DigiMate 的做法是以雲端服務、低程式碼與生成式 AI 重新組裝這些能力，
+      把原本要價高昂的系統，做成中小企業負擔得起、而且真的用得起來的版本。
+    </p>
+
+    <div class="brand-values">
+      <div class="brand-value">
+        <div class="icon">&#x1f3af;</div>
+        <h5>從實際流程出發</h5>
+        <p>先弄懂現場怎麼做事，再決定系統長什麼樣。不做套裝軟體式的削足適履。</p>
+      </div>
+      <div class="brand-value">
+        <div class="icon">&#x1f4b0;</div>
+        <h5>務實的成本結構</h5>
+        <p>以雲端服務與低程式碼組合取代高額授權，把預算留給真正產生價值的功能。</p>
+      </div>
+      <div class="brand-value">
+        <div class="icon">&#x1f916;</div>
+        <h5>AI 落地而非展示</h5>
+        <p>導入生成式 AI 的目的是接住重複性工作，而不是做一個沒人用的聊天視窗。</p>
+      </div>
+      <div class="brand-value">
+        <div class="icon">&#x1f501;</div>
+        <h5>交付後能自己長大</h5>
+        <p>系統與文件一併交付，讓內部人員看得懂、改得動，不被單一開發者綁死。</p>
+      </div>
+    </div>
+
+    <div class="brand-founder">
+      <div>
+        <div class="role">Founder &amp; Solution Architect</div>
+        <p>
+          陳見瑜。十五年橫跨電信、零售與客服的現場經驗，從中華電信客服、門市店長、Apple 居家顧問，
+          一路做到客服主管。這段歷程讓我對「流程哪裡卡住、人為什麼不照系統做」特別敏感——
+          我做的每一套系統，都是先當過那個被流程折磨的人，才動手設計的。
+          現在以 DigiMate 為名，把這些年在企業內部驗證過的 AI 應用與自動化方法，
+          帶給同樣需要、但沒有大公司預算的中小企業。
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 </section>
@@ -163,7 +240,7 @@ footer { text-align:center; padding:40px 0; border-top:1px solid var(--border); 
 <div class="container">
   <div class="section-label">Featured Projects</div>
   <div class="section-title">核心專案作品</div>
-  <div class="section-desc">從 AI 品質稽核到企業級自動化平台，以下是我主導設計並交付的五大代表性專案。</div>
+  <div class="section-desc">從 AI 品質稽核到全通路客服平台，以下是我主導設計並交付的六大代表性專案。</div>
 
   <!-- PROJECT 1: AI 智能質檢系統 -->
   <div class="project">
@@ -364,6 +441,108 @@ footer { text-align:center; padding:40px 0; border-top:1px solid var(--border); 
     </div>
   </div>
 
+  <!-- PROJECT 6: AI Agent 客服整合平台 / CRM -->
+  <div class="project">
+    <div class="project-header">
+      <div class="project-num cyan">Project 06</div>
+      <h3>AI Agent 客服整合平台 &amp; 案件管理系統</h3>
+      <h4>Omnichannel AI Service Platform &amp; CRM &mdash; 電子鎖製造業的全通路客服與到府派工數位轉型</h4>
+    </div>
+    <div class="project-body">
+      <p class="project-desc">
+        為電子鎖製造商設計並開發的端到端客服暨案件管理平台。將分散在 LINE、Facebook Messenger、Instagram DM、
+        Email、官網表單與 0800 語音的進線集中到單一收件匣，由 AI Agent 承接第一線的規格諮詢與操作教學，
+        需要到府處理的則轉為自主報修或真人客服。每一件案子從立案、派工、師傅到場、施工、完工驗收到保固登錄，
+        全程以案件編號串接，客戶可在 LINE 內查看進度。
+      </p>
+
+      <div class="arch-flow">
+        <div class="arch-step"><div class="icon">&#x1f4ac;</div><div class="label">全通路進線</div><div class="detail">LINE / FB / IG / Email / 0800</div></div>
+        <div class="arch-arrow">&#x25B6;</div>
+        <div class="arch-step"><div class="icon">&#x1f916;</div><div class="label">AI Agent 應答</div><div class="detail">RAG 知識庫 / 語音對話</div></div>
+        <div class="arch-arrow">&#x25B6;</div>
+        <div class="arch-step"><div class="icon">&#x1f4cb;</div><div class="label">自動建單</div><div class="detail">報修 / 安裝 / 客訴</div></div>
+        <div class="arch-arrow">&#x25B6;</div>
+        <div class="arch-step"><div class="icon">&#x1f9ed;</div><div class="label">派工排程</div><div class="detail">分區 13 格時刻表</div></div>
+        <div class="arch-arrow">&#x25B6;</div>
+        <div class="arch-step"><div class="icon">&#x1f527;</div><div class="label">師傅端回報</div><div class="detail">ETA / 照片 / 簽名</div></div>
+        <div class="arch-arrow">&#x25B6;</div>
+        <div class="arch-step"><div class="icon">&#x2705;</div><div class="label">驗收與保固</div><div class="detail">金流 / 保固登錄</div></div>
+      </div>
+
+      <div class="tech-stack">
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">Supabase (PostgreSQL / Realtime / Storage)</span>
+        <span class="tech-tag">Edge Functions (Deno)</span>
+        <span class="tech-tag">Gemini API</span>
+        <span class="tech-tag">Gemini Live API</span>
+        <span class="tech-tag">RAG / Vector Search</span>
+        <span class="tech-tag">LINE Messaging API / LIFF</span>
+        <span class="tech-tag">Meta Graph API</span>
+        <span class="tech-tag">WebRTC</span>
+        <span class="tech-tag">Google Apps Script</span>
+        <span class="tech-tag">Python</span>
+      </div>
+
+      <div class="metrics">
+        <div class="metric">
+          <div class="metric-value">6.9s &rarr; 0.3s</div>
+          <div class="metric-label">CRM 開頁載入（照片改物件儲存）</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value purple">6 管道</div>
+          <div class="metric-label">整合為單一收件匣</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value green">~0.9s</div>
+          <div class="metric-label">AI 語音對話延遲（可打斷）</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">21MB &rarr; 127KB</div>
+          <div class="metric-label">單次載入傳輸量</div>
+        </div>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature">
+          <div class="feature-icon">&#x1f4e5;</div>
+          <h5>全通路整合收件匣</h5>
+          <p>LINE、FB Messenger、IG DM 雙向串接，Email 與官網表單經進件 API 自動立案，0800 語音以 WebRTC 值機桌面接入，客服在同一畫面處理所有管道。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f9e0;</div>
+          <h5>AI Agent 與工具呼叫</h5>
+          <p>以 RAG 知識庫回答產品與操作問題，支援圖片、影片辨識判斷故障；語音端透過 function calling 直接查詢案件進度，並能依對話收齊資訊後自動建立維修單。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f194;</div>
+          <h5>客編中心化的案件管理</h5>
+          <p>以「地址＋姓名」為客戶唯一鍵（實務上電話並非唯一：房東、房仲、代管），案件一經發生即發客編，安裝、維修、客訴全程歸屬同一客戶歷程。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f517;</div>
+          <h5>案件深層連結</h5>
+          <p>每張工單與客戶都有專屬網址，貼上即定位到單張案件視圖，跨系統（客服端 / CRM / 師傅端）共用同一份即時資料。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f6fb;</div>
+          <h5>師傅端行動工單</h5>
+          <p>接單後以 GPS 定位回推抵達時間並自動推播客戶，到場、施工、完工逐段回報，強制上傳現場照片與客戶簽名作為驗收證據。</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">&#x1f4e6;</div>
+          <h5>貨運單自動化</h5>
+          <p>物流託運單 PDF 自動取檔、解析、與訂單配對入庫，客戶可在 LINE 內以六格進度條追蹤從出貨到安裝完成的完整旅程。</p>
+        </div>
+      </div>
+
+      <p class="project-desc" style="font-size:14px;color:var(--text-muted);margin-bottom:0">
+        &#x2139;&#xFE0F; 專案內容已去識別化呈現。AI 知識庫仍在內容累積階段，「AI 承接第一線問題」為系統設計目標，
+        實際自動解決率待知識庫養成後方能衡量，故此處不列為已達成之成效數字。
+      </p>
+    </div>
+  </div>
+
 </div>
 </section>
 
@@ -372,6 +551,13 @@ footer { text-align:center; padding:40px 0; border-top:1px solid var(--border); 
 <div class="container">
   <div class="cert-section">
     <div class="section-label" style="text-align:center">Certification</div>
+    <h2 style="font-size:28px;margin:16px 0 32px">專業認證</h2>
+    <div class="cert-badge">
+      <div class="icon">&#x1f3c6;</div>
+      <div class="text">
+        <div class="title">iPAS AI 應用規劃師（初級）</div>
+        <div class="org">經濟部產業人才能力鑑定 &mdash; 2026/07 發證 &#x2022; 證書號 A-J11-9040-2026</div>
+      </div>
     </div>
     <div style="margin-top:24px;">
       <div style="display:flex;gap:24px;justify-content:center;flex-wrap:wrap;">
@@ -430,7 +616,9 @@ footer { text-align:center; padding:40px 0; border-top:1px solid var(--border); 
 
 <footer>
 <div class="container">
-  &copy; 2026 陳見瑜 &mdash; AI Solution Architect Portfolio
+  <div class="brand-mark" style="margin-bottom:12px"><span class="digi">Digi</span><span class="mate">Mate</span></div>
+  <div>&copy; 2026 DigiMate &mdash; 陳見瑜 | AI 解決方案架構師</div>
+  <div style="margin-top:6px">讓中小企業不必花大錢，也能用上大公司等級的系統與服務</div>
 </div>
 </footer>
 
